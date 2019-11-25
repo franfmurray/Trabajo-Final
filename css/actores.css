@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F0F7F4;
+}
+html{
+	scroll-behavior: smooth;
+}
+@keyframes slider{
+	0%{transform: translateX(200%);}
+	100%{transform: translateX(0);}
+}
+
+.navegacion{
+	background-color:#70ABAF;
+	position: sticky;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.dropdown{
+	background-color: #70ABAF;
+}
+.headerfoto{
+	width: 100%
+}
+a{
+	color: black;
+}
+.contacto{
+	background-color: #70ABAF;
+	color: black;
+	border: none; 
+}
+.contacto:hover{
+	background-color: #70ABAF;
+}
+
+
+.imgslider{
+	width: 100%;
+}
+
+#slider{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.texto{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: solid 2px #70ABAF;
+}
+
+.bio{
+	margin-top: 10%;
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+.info2{
+
+	font-size: 18px;
+}
+.imginfo{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#detalle2{
+	padding-left: 0;
+	padding-right: 0;
+}
+.profilepic{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contenedor{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+	background-color:#F0F7F4;
+	padding: 2% 2%;
+}
+.tituloestilo{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bolder;
+	margin-top: 2%;
+	text-align: center;
+	border-bottom: solid 2px #70ABAF;
+
+
+}
+.imgestilo{
+	width: 100%;
+	margin-top: 4%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textoestilo{
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 18px;
+}
+.detalletitulo{
+	border-bottom: solid 2px #70ABAF;
+}
+
+.detalle2{
+	margin-top: 2%;
+}
+.copyright{
+	transition-property: color;
+	transition: 250ms;
+	color: black;
+}
+.copyright:hover{
+	text-decoration: none;
+	color: #70ABAF;
+}
+
+.dropshadow{
+	padding-right: 0;
+	padding-left: 0;
+}.border{
+	border-bottom: solid 4px #F0F7F4;
+}
+
+.poster{
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#posteranimation{
+	transition-property: scale;
+	transition: 250ms;
+}
+#posteranimation:hover{
+	transform: scale(1.1);
+}
+.nav-tabs > li > a:before{
+    background-color: #F0F7F4 !important;
+    border: none;
+    transition: 250ms;
+    transition-property: color,background-color;
+}
+.nav-tabs > li > a:hover{
+    background-color: #F0F7F4 !important;
+    color:#70ABAF;
+}
+.actoresposter{
+	width: 100%;
+}
+.borderactores{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.detalleactores{
+	border-top: solid 2px #70ABAF;
+}

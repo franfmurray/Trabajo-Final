@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/topicon.png">
+    <link rel="stylesheet" href="css/contacto.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <title>Christopher Nolan Oficial Site</title>
+</head>
+<body>
+<!-- header -->
+<header class="container-fluid navegacion">
+    <ul class="nav nav-tabs nav-fill">
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">CHRISTOPHER NOLAN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#Biografia">Biografia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="estilos.html"> Estilos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="filmografia.html">Filmografia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="actores.html">Actores</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="contacto.html">Contacto</a>
+      </li>
+    </ul>
+    </header>
+
+<!-- Section -->
+<div class="container-fluid">
+  <div class="container contenedor2">
+    <p><b>NECESITAS ALGUNA AYUDA? MANDANOS UN MENSAJE!</b></p>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="container contenedor">
+    <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nombre</label>
+    <input type="text" class="form-control" id="exampleInputName" aria-describedby="Nombre" placeholder="Nombre y Apellido" required="">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required="">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormcontrol4">Tu Mensaje</label>
+    <textarea name="message" class="form-control" id="exampleFormControlTextarea5" placeholder="Escribinos lo que quieras" required="" rows="4">
+  </textarea>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+  </div>
+</div>
+<!-- footer -->
+<footer class="page-footer font-small mt-3">
+
+  
+  <div class="footer-copyright text-center py-3 mt-2">© 2019 Copyright:
+    <a href="https://github.com/franfmurray" class="copyright"> Francisco Fernandez Murray</a>
+  </div>
+
+</footer>
+
+<!-- JAVASCRIPT -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- FancyBox-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        //Fancybox
+        $("#galeria a").attr("data-fancybox","utn");
+        $("#galeria a").fancybox({
+            //opciones
+            loop:true,
+        });
+    });
+</script>
+</body>
+</html>

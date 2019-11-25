@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/topicon.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <title>Christopher Nolan Oficial Site</title>
+</head>
+<body>
+<!-- header -->
+<header class="container-fluid navegacion">
+<ul class="nav nav-tabs nav-fill">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">CHRISTOPHER NOLAN</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Biografia</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="estilos.html"> Estilos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="filmografia.html">Filmografia</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="actores.html">Actores</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="contacto.html">Contacto</a>
+  </li>
+</ul>
+</header>
+
+
+
+
+
+
+<!-- Section -->
+
+<div class="container">
+  <div class="row">
+    <div class="col detalletitulo">
+      <h1 class="tituloestilo">ESTILOS</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="row">
+    <div class="col-lg-6 col-md-12 detalle2">
+      <p class="textoestilo">Mis peliulas son conocidas por su intelectualismo, profundidad, psicología y
+        narración poco ortodoxa. Algunos ejemplos de sus películas seria Memento y Inception. En
+        Memento la estructura narrativa no es cronológicas, y recibió gran parte de su atención por el
+        episodio que se desarrollaba en tiempos pasados. Y Inception tiene historias dentro de
+        historias. En la trilogía de Batman, Nolan entra en hondas reflexiones sobre el honor, la
+        responsabilidad y la identidad.</p>
+    </div>
+    <div class="col-lg-6 col-md-12 mb-5">
+      <img src="img/slider8.jpg" alt="EstiloEjemplo" class="imgestilo"data-aos="fade-left" >
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-md-12 ">
+     <img src="img/slider7.jpg" class= "imgestilo" alt="EstiloEjemplo2" data-aos="fade-right">
+    </div>
+    <div class="col-lg-6 col-md-12">
+      <img src="img/slider9.png" class= "imgestilo" alt="EstiloEjemplo2" data-aos="fade-left">
+     </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- footer -->
+<footer class="page-footer font-small mt-3">
+  <div class="footer-copyright text-center py-3 mt-2">© 2019 Copyright:
+    <a href="https://github.com/franfmurray" class="copyright"> Francisco Fernandez Murray</a>
+  </div>
+
+
+</footer>
+<!-- Footer -->
+
+
+<!-- JAVASCRIPT -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- FancyBox-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        //Fancybox
+        $("#galeria a").attr("data-fancybox","utn");
+        $("#galeria a").fancybox({
+            //opciones
+            loop:true,
+        });
+    });
+</script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

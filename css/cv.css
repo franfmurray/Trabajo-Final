@@ -1,0 +1,499 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #70ABAF;
+}
+html{
+	scroll-behavior: smooth;
+}
+header{
+	background-color: #F0F7F4;
+	 position: sticky;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+#wrapper{
+	width: 80%;
+	background-color: #F0F7F4;
+	margin:auto;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Nav*/
+
+.home{
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+	list-style: none;
+	transition: 250ms;
+	transition-property: color;
+}
+.home:hover{
+	color: #70ABAF;
+
+}
+
+
+.navbar{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.seccion{
+	 text-decoration: none;
+	color: black;
+	transition: 250ms;
+
+}
+.seccion:hover{
+	color: #70ABAF;
+
+}
+.shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 10%;
+}
+
+/*Section*/
+
+.contenedor{
+	padding: 0 4%;
+	display: flex;
+align-items: center;
+	justify-content: space-between;
+
+
+
+}
+.imageninfo{
+	width: 35%;
+	padding-top: 1.5%;
+}
+.img{
+	width: 100%;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.info{
+	padding-top: 1.5%;
+    width: 60%;
+}
+
+.Titulo{
+	border-bottom: solid 2px  #70ABAF;
+	padding-bottom: 2%;
+}
+
+.info2{
+	font-size: 1.5em;
+	padding-bottom: 3%;
+
+}
+.info3{
+	font-size: 18px;
+}
+
+.titulo2{
+	padding-top: 6.5%;
+	border-bottom: solid 2px  #70ABAF;
+	text-align: center;
+}
+.mainbio{
+	padding: 0 4%;
+}
+
+.biografia{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.educacion{
+	width: 41%;
+	display: flex;
+}
+.fotos{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+}
+.texto1{
+	font-size: 18px;
+	padding-bottom: 1.5%;
+	padding-top: 1.5%;
+}
+.premios{
+	padding-bottom:1%;
+	font-size: 18px;
+}
+.premios2{
+	padding-top:1.5%;
+	font-size: 18px;
+}
+.sector1{
+	width:48%;
+	margin: 1%;
+	
+}
+.subtitulo{
+	border-bottom: solid 2px  #70ABAF;
+	text-align: center;
+	
+}
+
+#contenedor3{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: space-around;
+}
+.img1{
+	width: 75%;
+}
+.img2{
+	width: 75%;
+}
+.imgsub{
+	width: 100%;
+}
+.imgsub2{
+	width: 100%;
+}
+.ocupacion{
+	text-align: center;
+	font-size: 18px;
+}
+.ocupacion1{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 1.5%;
+}
+
+
+
+
+									/* Filmografia */
+.contenedor2{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.poster{
+	width: 12%;
+	margin: 1.5%;
+	transition-timing-function: ease-in-out;
+	transition: 250ms;
+
+
+
+}
+.poster:hover{
+	transform: scale(1.1,1.1);
+}
+
+.film{
+	padding: 0 4%;
+}
+
+                                /* Estilos */
+.estilos{
+	padding: 0 4%;
+}
+.imgplano{
+	width: 100%;
+	height: auto;
+}
+.imgplano2{
+	width: 79%;
+}
+.contenedor4{
+	display: flex;
+	align-items: flex-start;
+}
+.contenedor5{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.estiloimg{
+	width: 100%;
+}
+.estiloimg2{
+	width: 100%;
+}
+
+.textoestilo{
+	font-size: 18px;
+}
+
+.infoestilo{
+	padding-left: 1.5%;
+}
+.contenedor6{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+}
+
+.imgestilo{
+	width: 100%;
+	height: auto;
+}
+
+.show{
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+									/* Actores */
+
+.actores{
+	padding: 0 4%;
+}
+.contenedor7{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+.acting{
+	width: 80%;
+}
+.prt{
+	width: 100%
+}
+
+									/* Footer */
+
+.footer{
+font-weight: bold;
+}
+.contenedor8{
+	padding-top: 1.5%;
+	padding-right: 4%;
+	padding-left: 4%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Media Queries*/
+/*Extra Large*/
+@media (min-width: 1201px){
+	.acting{
+	width: 100%;
+}	
+.contenedor7{
+	justify-content:space-around;
+	flex-direction: row-reverse;
+	align-items: center;
+	flex-wrap: wrap;
+	}
+.contenedor6{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+}
+.show{
+	width: 98%;
+}
+.imgestilo{
+width: 80%;
+}
+.prt{
+	width: 20%;
+}
+.acting{
+	width: 100%;
+}
+}
+/*Large*/
+@media screen and (min-width: 960px) and (max-width: 1200px){
+.acting{
+	width: 100%;
+}	
+.contenedor6{
+		flex-direction: column;
+	}
+.contenedor5{
+	flex-direction: column;
+	align-items: center;
+}
+.contenedor4{
+	flex-direction: column;
+	align-items: center;
+}
+.contenedor7{
+	justify-content:center;
+	flex-direction: row-reverse;
+	align-items: center;
+	flex-wrap: wrap;
+	}
+
+.seccion{
+font-size: 12px;
+}
+.home{
+	font-size: 25px;
+
+}
+.prt{
+	width: 20%;
+
+}
+.acting{
+	width: 95%;
+}
+
+}
+/*Medium*/
+@media screen and (min-width: 600px) and (max-width: 959px){
+	.contenedor4{
+		flex-direction: column;
+		align-items: center;
+	}
+	.contenedor5{
+		flex-direction: column;
+		align-items: center;
+	}
+	.contenedor6{
+		flex-direction: column;
+	}
+	.contenedor7{
+	justify-content:space-around;
+	flex-direction: row-reverse;
+	align-items: center;
+	flex-wrap: wrap;
+	}
+
+	.acting{
+	width: 82%;
+}
+.prt{
+	width: 20%;
+}
+	.imgplano{
+		height: 70%;
+	}
+	.home{
+	font-size: 20px;
+}
+.seccion{
+	font-size: 12px;
+}
+.info2{
+	font-size: 16px;
+	padding-bottom: 2%;
+
+}
+}
+/*small*/
+@media screen and (min-width: 0px) and (max-width: 599px){
+	.contenedor{
+		flex-direction: column;
+		
+	}
+	.contenedor2{
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.biografia{
+	flex-direction: column;
+
+	}
+	#contenedor3{
+
+	}	
+
+	.contenedor4{
+		flex-direction: column;
+
+	}
+	.contenedor5{
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.contenedor6{
+		flex-direction: column;
+
+	}
+	.contenedor7{
+	justify-content:center;
+	flex-direction: row-reverse;
+	align-items: center;
+	flex-wrap: wrap;
+	}
+
+	.imageninfo{
+		width: 100%;
+	}
+
+.sector1{
+	width: 100%;
+	padding-left:1%;
+	padding-right:1%;
+
+}
+.prt{
+	width: 45%;
+}
+
+
+	.info{
+		text-align: center;
+		width: 100%;
+	}
+
+.info2{
+	font-size: 1em;
+	padding-bottom: 1%;
+
+}
+.poster{
+	width: 40%;
+}
+	.acting{
+	width: 90%;
+}
+.nombres{
+	width:20%;
+}
+.navbar{flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+.home{
+	font-size: 25px;
+	width: 100%;
+}
+.footer{
+	font-size: 12px;
+}
+	
+
+#wrapper{
+	width: 100%;
+}
+
+}
